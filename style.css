@@ -1,0 +1,162 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+@font-face{
+    font-family: Arial Bold;
+}
+.wrapper {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    color:#ffffff;
+    font-size: 25pt;
+}
+.header{
+    background: #f56262;
+}
+.title{
+    font-size: 35pt; 
+}
+figure{
+    display: inline-block;
+}
+figcaption{
+    font-size: 17pt;  
+}
+nav{
+    float: right;
+    margin: 40px;
+    
+}
+nav li{
+    font-size: 16px;
+    float: left; 
+}
+nav li a{
+    margin-left: 30px;
+    color:#ffffff;
+    font-size: 15pt;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav li a:hover{
+    border-bottom: 3px;
+    color: #f5f5f5;
+    background: #050505;
+}
+.first{
+    background: #eb4f4e;
+    padding: 10px; 
+}
+h1{
+    text-align: center;
+    font: 60px Times New Roman;
+}
+.par{
+    text-align: center;
+    font: 20px Times New Roman Regular;
+    margin-top: -30px;
+}
+.second{
+    background: #232324;
+    padding: 10px; 
+}
+h2{
+    text-align: center;
+    font: 50px Times New Roman;
+}
+.par2{
+    text-align: center;
+    font: 20px Times New Roman Regular;
+    margin-top: -30px;
+    color: #d84948;
+}
+.ico{
+    width: auto;
+    padding-left: 180px;
+}
+.third{
+    background: #6cc372;
+    padding: 10px; 
+}
+h3{
+    text-align: center;
+    font: 50px Times New Roman;
+}
+.par3{
+    text-align: center;
+    font: 20px Times New Roman Regular;
+    margin-top: -30px;
+    color: #232324;
+}
+.info{
+    display: inline-block;
+    position: static;
+}
+
+.name{
+    color: #6cc372;
+    text-align: center;
+    font-size: 18px;
+}
+.content h4{
+    color: #e56960;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.content table td{
+    background: azure;
+    padding: 10px;
+    border-radius: 10px; 
+    height: 400px;
+    width: 220px;
+    margin-left: 20px;
+    display: inline-block;
+}
+a.button {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background: #6cc372;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: -30px;
+    position: absolute;
+    padding: 10px 30px;
+    
+} 
+a.button:hover { background: rgb(53, 167, 110);
+}
+.footer{
+    background: #232324;
+    height: 100%;
+}
+.footer h1{
+    color:azure;
+    font-size: 15pt;
+    margin: 0 auto;
+    display: inline;
+    margin-left: 10px;
+    
+}
+.footer h2{
+    color:#873939;
+    font-size: 15pt;
+    display: inline;
+    
+}
+.footer img{
+    width: 30px;
+    display: inline-block; 
+    float: right;
+    margin-left: 10px;
+    margin-top: 5px;
+}
